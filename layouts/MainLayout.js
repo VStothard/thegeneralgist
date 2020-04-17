@@ -22,7 +22,7 @@ const MainLayout = props => (
     <TopNavigation />
     <div className="container mx-auto">
       <MainHeader />
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         { topics.map((topic) => {
           return (
             <TopicBox key={`topic_${topic.id}`} id={topic.id}>
